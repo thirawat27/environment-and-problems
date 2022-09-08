@@ -1,0 +1,135 @@
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2a2828;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #2cbc7c;
+}
+body {
+    font-family: 'Kanit', sans-serif;
+}
+.text-color {
+    color: #000000;
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+}
+.img-size {
+    border-radius: 24px;
+    box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.3);
+}
+.img-size-2 {
+    border-radius: 24px;
+}
+.bg-page {
+    padding:20px; 
+    margin-top:30px; 
+    background-color: #9becc1; 
+    height:1500px;
+}
+.bg-page-1 {
+    padding:45px; 
+    margin-top:30px;
+    background-color: #1c1f1f; 
+    height:1500px;
+}
+.bg-page-2 {
+    padding:45px; 
+    margin-top:30px;
+    background-color: #293462; 
+    height:1500px;
+}
+.footer-box {
+    background-color: #d6d6d6;
+    padding: 4px;
+    text-align: center;
+}
+.footer-in {
+    background-color: rgb(255, 255, 255);
+    border-radius: 22px;
+    padding: 4px;
+    margin: 15px;
+    text-align: center;
+}
+.myButton {
+	box-shadow:inset 0px -50px 0px -24px #44c767;
+	background-color:#44c767;
+	border-radius:10px;
+	border:2px solid #44c767;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding: 12px 13px;
+	text-decoration:none;
+
+}
+.myButton-1 {
+	box-shadow:inset 0px -50px 0px -24px #44c767;
+	background-color:#44c767;
+	border-radius:10px;
+	border:2px solid #44c767;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding: 12px 13px;
+	text-decoration:none;
+    line-height: 1.8;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.box {
+    border: 1px solid #ffffff;
+    background-color: #fbffe9;
+    border-radius:17px;
+    -webkit-border-radius:17px;
+    -moz-border-radius:17px;
+    -ms-border-radius:17px;
+    -o-border-radius:17px;
+}
+.frame-align {
+    padding: 100px;
+}
+.grad1 {
+    height: 50px;
+    background-color: red;
+    background-image: linear-gradient(#ff0003 50%,#000000 50%);
+}
+.box-Profile {
+    border: 2px solid #000000;
+}
+.color-pro {
+    color: #ffffff;
+}
+.box-section {
+    border: 10px solid #0f862e;
+}
